@@ -1,5 +1,3 @@
-// console.log(__dirname);
-
 var { createReadStream, createWriteStream } = require("fs");
 var path = require("path");
 var inputFile = path.join(__dirname, "src", "input.xml");
