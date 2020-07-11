@@ -2,7 +2,6 @@
 
 var { createReadStream, createWriteStream } = require("fs");
 var path = require("path");
-const { prototype } = require("stream");
 var inputFile = path.join(__dirname, "src", "input.xml");
 var outputFile = path.join(__dirname, "src", "output.xml");
 
